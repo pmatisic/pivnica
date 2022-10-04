@@ -1,0 +1,9 @@
+<?php
+    require("konstante.php");
+    require("korisnik.class.php");
+    require("bazaSkraceno.php");
+    require("pomocneFunkcije.php");
+    require("generiranjeElemenata.php");
+    require("radSaSesijom.php");
+    require("radSaDnevnikom.php");
+?>

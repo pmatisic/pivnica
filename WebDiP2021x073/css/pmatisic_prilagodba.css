@@ -1,0 +1,214 @@
+@media only screen and (min-width: 480px){
+
+	nav{
+		float: left;
+		width: 65%;
+		margin-left: 50px;
+	}
+	
+	section{
+		width: 75%;
+		text-align: center;
+		margin-left: 12%;
+		padding-bottom: 30px;
+	}
+	
+	.naslov-zaglavlje{
+		display: inline-block;
+		margin-left: 0px;
+	}
+
+	.datum-vrijeme{
+		text-align: right;
+		display: inline-block;
+		float: none;
+	}
+	
+	.prijava-zaglavlje{
+		float: right;
+		clear: right;
+	}
+	
+	.slika-autora{
+		display: inline-block;
+	}
+
+	.lista-pocetna{
+		display: inline-block;
+	}
+	
+	.slikeGalerija{
+		display: inline-block;
+	}
+	
+	.slikeGalerija>video{
+		height: 350px;
+		width: 500px;
+	}
+	
+	section>article>iframe{
+		height: 350px;
+		width: 500px;
+	}
+	
+	label{
+		float: left;
+	}
+
+	input{
+		display: block;
+		margin-left: 160px;
+	}
+
+	.labele{
+		float: left;
+	}
+
+	.polja{
+		display: block;
+		margin-left: 160px;
+	}
+
+	.gumbSlanje{
+		display: inline;
+		float: left;
+		font-size: 15px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	.polja2{
+		float: left;
+		margin-left: 10px;
+	}
+	
+	#uvjeti{
+		display: none;
+	}
+	
+	#uvjeti-labela{
+		display: none;
+	}
+	
+	.okvir{
+		width: 600px;
+		height: 200px;
+	}
+	
+}
+
+@media only screen and (max-width: 480px){
+	
+	header>h1{
+		padding-top: 50px;
+	}
+	
+	nav{
+		width: 100%;
+	}
+	
+	section{
+		margin-bottom: 20px;
+	}
+	
+	nav>ul{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	#tablica{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.prikaz{
+		display: none;
+	}
+	
+	.lista-pocetna{
+		position: relative;
+		margin-top: 310px;
+		margin-left: 170px;
+	}
+	
+	.slika-autora{
+		position: absolute;
+		top: 500px;
+		left: 20px;
+	}
+	
+	audio{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.slikeGalerija>video{
+		display: grid;
+		height: 330px;
+		width: 330px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.slikeGalerija>figcaption{
+		display: grid;
+		text-align: center;
+	}
+	
+	article{
+		display: grid;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	section>article>iframe{
+		display: grid;
+		height: 200px;
+		width: 300px;
+	}
+	
+	.video-naslov{
+		text-align: center;
+	}
+	
+	.obrasci{
+		padding: 0;
+		width: auto;
+	}
+	
+	h1{
+		text-align: center;
+	}
+	
+	input[type="text"], input[type="password"]{
+		display: block;
+		width: 100%;
+	}
+	
+	input[type="submit"],input[type="reset"]{
+		display: block;
+		width: 30%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.polja{
+		display: block;
+		width: 100%;
+	}
+	
+	.gumbSlanje{
+		display: block;
+		text-align: center;
+	}
+	
+	#obrazac input[type="text"]{
+		width: 40%;
+	}
+	
+	.okvir{
+		width: 450px;
+	}
+	
+}

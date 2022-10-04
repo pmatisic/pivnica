@@ -1,0 +1,24 @@
+@media print{
+    body {
+        visibility: hidden;
+        background: white;
+        color: black;
+        margin: 0;
+    }
+
+    .klasaPrintanje{
+        visibility: visible;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+
+    header {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+}
